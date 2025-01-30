@@ -1,0 +1,63 @@
+body{
+    background: url(bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form{
+    padding: 10px 20px 30px;
+    width: 500px;
+    margin: 250px auto;
+    background-color: rgba(0, 0, 0, 0.41);
+    color: white;
+    border-radius: 10px;
+    font-size: 35px;
+
+}
+
+.form h3{
+    color: rgb(73, 0, 33);
+    text-align: center;
+}
+
+.form .textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.1em;
+    box-shadow: 3px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #006d77;
+    margin: 5px 0px 15px;
+    font-size: 29px;
+    color: gray
+}
+
+input:focus{
+    background-color: rgba(0, 0, 0, 0.263);
+    
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: #93385c;
+    text-align: center;
+    box-shadow: 2px;    
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 1px solid rgb(78, 6, 4);
+
+}
+.radio input{
+    accent-color: #93385c;
+    transform: scale(1.5);
+
+}
